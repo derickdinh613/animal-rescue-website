@@ -37,7 +37,16 @@ a {
   border-radius: 8px;
 }
 
+.nav a:hover {
+  color: #E21D79;
+  background-color: #fff;
+}
+
 .banner-content {
   padding-top: 150px;
   color: #fff;
+}
+
+section {
+  margin: auto;
 }
