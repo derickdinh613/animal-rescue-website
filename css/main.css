@@ -4,9 +4,40 @@ html {
 
 h1 {
   font-weight: 700;
+  color: #fff;
+}
+
+header {
+  background-color: #E21D79;
 }
 
 a {
   font-weight: 400;
   text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  background-image: linear-gradient(to bottom, rgba(247, 160, 225, 0), rgba(247, 160, 225, .8)), url("../images/banner.jpg");
+  background-position: left bottom, center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #C30290;
+  background-color: #E21D79;
+  border-radius: 8px;
+}
+
+.banner-content {
+  padding-top: 150px;
+  color: #fff;
 }
