@@ -50,3 +50,20 @@ a {
 section {
   margin: auto;
 }
+
+h2 {
+  color: #E21D79;
+}
+
+.btn {
+  border-color: rgba(226, 29, 121, 1);
+  color: #E21D79;
+}
+
+.btn:hover {
+  border-color: #fff;
+  background-color: #E21D79;
+  color: #fff;
+}
+
+}
