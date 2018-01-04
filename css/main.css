@@ -1,5 +1,5 @@
 html {
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 h1 {
@@ -61,10 +61,6 @@ h2 {
 .btn {
   border-color: rgba(226, 29, 121, 1);
   color: #880d49;
-}
-
-.btn-ghost:hover {
-  background-color: #880d49
 }
 
 .btn:hover {
