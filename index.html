@@ -9,15 +9,22 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicon-196.png">
 
 </head>
-<body class="">
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
   <header class="masthead grid grid-middle island-1-2" role="banner">
     <div class="logo unit xs-1 s-1 m-1 l-1-4">
       <h1 class="push-0 gutter-1-4 pad-b-1-4">Dogtales</h1>
     </div>
-    <nav class="nav unit xs-1 s-1 m-1 l-3-4">
+    <nav class="nav unit xs-1 s-1 m-1 l-3-4" role="navigation" id="nav" tabindex="0">
       <ul class="list-group-inline push-0">
         <li class="island-1-8">
           <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="#">Home</a>
@@ -31,19 +38,19 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main role="main" id="main" tabindex="0">
     <div class="island banner">
       <div class="banner-content wrapper pad-b gutter-1-2">
         <p class="push-0 zetta">Dog Tales is a world-renowned dog rescue and horse sanctuary set on an incredible 50 acres of green fields, rolling hills, and wooded areas in King City, Ontario.</p>
       </div>
     </div>
 
-    <div class="grid">
+    <div class="grid" role="contentinfo">
       <h2 class="unit [ xs-1 s-1 m-1 l-1 xl-1 ] max-length center-text zetta pad-t-2 pad-b-2">These animals need homes!</h2>
       <section class="unit [ xs-1 s-1 m-1 l-1-4 xl-1-4 ]">
         <div class="block center-text">
           <i class="icon i-192 push">
-            <img src="images/burger.jpg" alt="">
+            <img class="embed embed-item" src="images/burger.jpg" alt="">
           </i>
           <h2 class="text-left push-1-2"><span class="block icon-text">Burger</span></h2>
         </div>
@@ -59,7 +66,7 @@
       <section class="unit [ xs-1 s-1 m-1 l-1-4 xl-1-4 ]">
         <div class="block center-text">
           <i class="icon i-192 push">
-            <img src="images/riley.jpg" alt="">
+            <img class="embed embed-item" src="images/riley.jpg" alt="">
           </i>
           <h2 class="text-left push-1-2"><span class="block icon-text">Riley</span></h2>
         </div>
@@ -75,7 +82,7 @@
       <section class="unit [ xs-1 s-1 m-1 l-1-4 xl-1-4 ]">
         <div class="block center-text">
           <i class="icon i-192 push">
-            <img src="images/snoopy.jpg" alt="">
+            <img class="embed embed-item" src="images/snoopy.jpg" alt="">
           </i>
           <h2 class="text-left push-1-2"><span class="block icon-text">Snoopy</span></h2>
         </div>
