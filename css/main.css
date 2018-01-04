@@ -15,13 +15,7 @@ a {
   color: #fff;
 }
 
-.banner {
-  background-image: linear-gradient(to bottom, rgba(247, 160, 225, 0), rgba(247, 160, 225, .8)), url("../images/banner.jpg");
-  background-position: left bottom, center bottom;
-  background-size: auto;
-  background-repeat: no-repeat;
-  height: 400px;
-}
+
 
 .nav {
   text-align: center;
@@ -40,8 +34,19 @@ a {
   background-color: #fff;
 }
 
+.banner {
+  background-image: linear-gradient(to bottom, rgba(247, 160, 225, 0), rgba(247, 160, 225, .8)), url("../images/banner.jpg");
+  background-position: left bottom, center bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+
 .banner-content {
-  padding-top: 150px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   color: #fff;
 }
 
